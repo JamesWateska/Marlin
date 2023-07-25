@@ -37,11 +37,7 @@
  *
  * Advanced settings can be found in Configuration_adv.h
  */
-<<<<<<< Updated upstream
 #define CONFIGURATION_H_VERSION 02000905
-=======
-#define CONFIGURATION_H_VERSION 02010300
->>>>>>> Stashed changes
 
 //===========================================================================
 //============================= Getting Started =============================
