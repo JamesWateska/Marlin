@@ -35,7 +35,7 @@
  *
  * Advanced settings can be found in Configuration_adv.h
  */
-#define CONFIGURATION_H_VERSION 02010200
+#define CONFIGURATION_H_VERSION 02010201
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -784,7 +784,7 @@
  */
 #define PIDTEMPBED
 
-#define BED_LIMIT_SWITCHING
+// #define BED_LIMIT_SWITCHING
 
 /**
  * Max Bed Power
