@@ -1638,7 +1638,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET \
   {                            \
-    24, 0, 0                   \
+    25, -7, 0                   \
   }
 
 // Most probes should stay away from the edges of the bed, but
@@ -2044,7 +2044,7 @@
 /**
  * Auto-leveling needs preheating
  */
-// #define PREHEAT_BEFORE_LEVELING
+#define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
 #define LEVELING_NOZZLE_TEMP 120 // (°C) Only applies to E0 at this time
 #define LEVELING_BED_TEMP 50
@@ -2380,7 +2380,7 @@
 // Preheat Constants - Up to 10 are supported without changes
 //
 #define PREHEAT_1_LABEL "PLA"
-#define PREHEAT_1_TEMP_HOTEND 200
+#define PREHEAT_1_TEMP_HOTEND 220
 #define PREHEAT_1_TEMP_BED 70
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED 0 // Value from 0 to 255
