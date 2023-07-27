@@ -654,7 +654,7 @@
  * (especially before PID tuning). Setting the target temperature too close to MAXTEMP guarantees
  * a MAXTEMP shutdown! Use these values to forbid temperatures being set too close to MAXTEMP.
  */
-#define HOTEND_OVERSHOOT 5 // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
+#define HOTEND_OVERSHOOT 15 // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
 #define BED_OVERSHOOT 10    // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
 #define COOLER_OVERSHOOT 2  // (°C) Forbid temperatures closer than OVERSHOOT
 
@@ -694,9 +694,9 @@
     114.00, 114.00      \
   }
 #else
-#define DEFAULT_Kp 25.97
-#define DEFAULT_Ki 1.94
-#define DEFAULT_Kd 86.77
+#define DEFAULT_Kp 28.49
+#define DEFAULT_Ki 5.48
+#define DEFAULT_Kd 37.04
 #endif
 #endif
 
