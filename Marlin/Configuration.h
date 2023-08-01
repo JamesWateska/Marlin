@@ -694,9 +694,9 @@
     114.00, 114.00      \
   }
 #else
-#define DEFAULT_Kp 27.87
-#define DEFAULT_Ki 5.05
-#define DEFAULT_Kd 38.46
+#define DEFAULT_Kp 22.24
+#define DEFAULT_Ki 2.54
+#define DEFAULT_Kd 88.89
 #endif
 #endif
 
@@ -2731,7 +2731,7 @@
 //
 // Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu.
 //
-// #define INDIVIDUAL_AXIS_HOMING_MENU
+#define INDIVIDUAL_AXIS_HOMING_MENU
 // #define INDIVIDUAL_AXIS_HOMING_SUBMENU
 
 //
@@ -3014,7 +3014,7 @@
 // #define FYSETC_MINI_12864_X_X    // Type C/D/E/F. No tunable RGB Backlight by default
 // #define FYSETC_MINI_12864_1_2    // Type C/D/E/F. Simple RGB Backlight (always on)
 // #define FYSETC_MINI_12864_2_0    // Type A/B. Discreet RGB Backlight
-// #define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight
+#define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight
 // #define FYSETC_GENERIC_12864_1_1 // Larger display with basic ON/OFF backlight.
 
 //
@@ -3029,7 +3029,7 @@
 // This is RAMPS-compatible using a single 10-pin connector.
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
- #define CR10_STOCKDISPLAY
+//  #define CR10_STOCKDISPLAY
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
