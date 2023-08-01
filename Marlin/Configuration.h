@@ -2922,7 +2922,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+// #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // K.3D Full Graphic Smart Controller
@@ -3014,13 +3014,13 @@
 // #define FYSETC_MINI_12864_X_X    // Type C/D/E/F. No tunable RGB Backlight by default
 // #define FYSETC_MINI_12864_1_2    // Type C/D/E/F. Simple RGB Backlight (always on)
 // #define FYSETC_MINI_12864_2_0    // Type A/B. Discreet RGB Backlight
-#define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight
+// #define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight
 // #define FYSETC_GENERIC_12864_1_1 // Larger display with basic ON/OFF backlight.
 
 //
 // BigTreeTech Mini 12864 V1.0 is an alias for FYSETC_MINI_12864_2_1. Type A/B. NeoPixel RGB Backlight.
 //
-//#define BTT_MINI_12864_V1
+#define BTT_MINI_12864_V1//
 
 //
 // Factory display for Creality CR-10
@@ -3488,7 +3488,7 @@
 // #define NEOPIXEL_PIN                4 // LED driving pin
 // #define NEOPIXEL2_TYPE  NEOPIXEL_TYPE
 // #define NEOPIXEL2_PIN               5
-#define NEOPIXEL_PIXELS 3      // Number of LEDs in the strip. (Longest strip when NEOPIXEL2_SEPARATE is disabled.)
+#define NEOPIXEL_PIXELS 30      // Number of LEDs in the strip. (Longest strip when NEOPIXEL2_SEPARATE is disabled.)
 #define NEOPIXEL_IS_SEQUENTIAL  // Sequential display for temperature change - LED by LED. Disable to change all LEDs at once.
 #define NEOPIXEL_BRIGHTNESS 255 // Initial brightness (0-255)
 // #define NEOPIXEL_STARTUP_TEST         // Cycle through colors at startup
